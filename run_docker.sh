@@ -11,5 +11,5 @@ docker build --tag=sklearn .
 docker image ls
 
 # Step 3: 
-# Run flask app
-docker run -it sklearn bash 
+# Run flask app, expose port 80 whie publishing to port 8000
+docker run -p 8000:80 sklearn 
