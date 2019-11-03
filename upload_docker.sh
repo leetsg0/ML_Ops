@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="sklearn:initial"
+dockerpath="sklearn:latest"
 
 # Step 2:  
 # Authenticate & tag
