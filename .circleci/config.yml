@@ -26,10 +26,10 @@ jobs:
     - run:
         name: activate virtual env
         command: . venv/bin/activate
-    - run
+    - run:
         name: install thru makefile
         command: make install
-    - run
+    - run:
         name: Install hadolint
         command: wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 && chmod +x /bin/hadolint
     - save_cache:
