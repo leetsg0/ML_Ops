@@ -27,7 +27,7 @@ jobs:
         name: activate virtual env
         command: . venv/bin/activate
     - run
-        name: run install thru makefile
+        name: install thru makefile
         command: make install
     - run
         name: Install hadolint
@@ -42,5 +42,5 @@ jobs:
         name: virtual env
         command: . venv/bin/activate
     - run:
-        name: run lint thru makefile
+        name: lint thru makefile
         command: make lint 
