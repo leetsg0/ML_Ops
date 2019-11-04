@@ -12,4 +12,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app, expose port 80 whie publishing to port 8000
+# May have to make sure that a container with the name sklearn-app doesn't already exist
 docker run --name sklearn-app -p 8000:80 sklearn:latest 
