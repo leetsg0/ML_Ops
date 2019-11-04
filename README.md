@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/leetsg0/ML_Ops/tree/master.svg?style=svg)](https://circleci.com/gh/leetsg0/ML_Ops/tree/master)
 
 ## Project Overview
 
@@ -33,6 +33,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+
+### Uploading to Dockerhub
+* Run Upload: `./upload_docker.sh`
 
 ### Kubernetes Steps
 
