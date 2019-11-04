@@ -25,6 +25,9 @@ See other notes below.
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
 
+Note: I did run into virtualization issues when running minikube.  To run minikube, the environment needs KVM or virtualbox installed.  To work around the issue, I created the VM to have at least 2 vCPUs.  Then when the environment is set up, you can run the following command:
+* `sudo minikube --vm-driver=none start`
+
 ### Running `app.py`
 
 1. Standalone:  `python app.py`
