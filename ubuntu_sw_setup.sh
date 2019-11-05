@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #This script install the necessary software packages for the ubuntu environment needed to Operationalize an ML app
-# Step 1: Install Git
+# Step 1
 sudo apt -y upgrade
-sudo apt install -y git
 
 # Step 2: Install Docker
 sudo apt install -y docker.io
