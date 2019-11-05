@@ -23,7 +23,7 @@ For this specific project, I created an ubuntu 18.04 LTS VM using virtual box an
 See other notes below.
 * Install Git `sudo apt install -y git`
 * Clone the repo `git clone https://github.com/leetsg0/ML_Ops.git`
-* Sudo apt install: Python, Python3, socat, docker, kubectl, minikube, wget, curl, make, vim or just run shell script `./ubuntu_sw_setup.sh`
+* Sudo apt install: Python, Python3, socat, docker, kubectl, minikube, wget, curl, make, vim or just run shell script `./ubuntu_sw_setup.sh` (make sure to change the mod to executable)
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
 
