@@ -34,7 +34,8 @@ Note: I did run into virtualization issues when running minikube.  To run miniku
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+3. Run in Kubernetes:  `./run_kubernetes.sh` 
+(NOTE: Kube pods may be under construction, and may cause an error. Run 'sudo kubectl get pods' and check status to see if it's Running.  Then run the last command of the script)
 
 ### Uploading to Dockerhub
 * Run Upload: `./upload_docker.sh`
