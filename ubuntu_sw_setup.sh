@@ -22,7 +22,7 @@ sudo apt install -y vim
 wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.2/hadolint-Linux-x86_64 &&  sudo chmod +x /bin/hadolint
 
 # Step 8: install kubectl
-sudo snap install kubectl –classic
+sudo snap install kubectl –-classic
 
 # Step 9: install minikube
 sudo curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && sudo chmod +x minikube && sudo mv minikube /usr/local/bin/
